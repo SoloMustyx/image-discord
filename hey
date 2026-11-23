@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accéder au site</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #111;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    a {
+      display: block;
+      cursor: pointer;
+    }
+
+    img {
+      display: block;
+      max-width: 95vw;
+      max-height: 95vh;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- REMPLACE LE LIEN CI-DESSOUS PAR TON URL -->
+  <a href="https://urlto.me/2r0Ff">
+    <img
+      src="Capture%20d%E2%80%99%C3%A9cran%20du%202026-11-23%2019-21-37.png"
+      alt="Clique pour accéder au site"
+    >
+  </a>
+
+</body>
+</html>
